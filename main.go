@@ -16,7 +16,7 @@ func main() {
 	fmt.Println(v)
 	
 	opts := MQTT.NewClientOptions()
-	opts.AddBroker("ws://localhost:1883")
+	opts.AddBroker("ws://34.87.113.63:1883")
 	opts.SetClientID("MacBookPro2")
 
 	client := MQTT.NewClient(opts)
